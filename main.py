@@ -5,6 +5,10 @@ def main():
     Use the same variables: celsius fahrenheit 
     ##################################################
     """
+    celsius = int(input('Enter your temterature in Celsius: '))
+    fahrenheit = 9/5 * celsius  + 32
+
+    print ('The converted temperature is {farenheit:.2f}')
 
     """
     ########################################
